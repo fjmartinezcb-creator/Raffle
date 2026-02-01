@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fundraiser Raffle – R&S Social Club #2</title>
+  <style>
+    /* MOBILE-FIRST | MATCHING FLYER COLORS & FORMAL TONE */
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      background: #f5f5f5;
+      color: #1a2b4c;
+    }
+    header {
+      background: #0f2f57;
+      color: #ffffff;
+      text-align: center;
+      padding: 2rem 1rem 1.5rem;
+      border-bottom: 6px solid #cfa44a;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.9rem;
+      letter-spacing: 2px;
+      color: #f5c76a;
+    }
+    header p {
+      margin-top: 0.75rem;
+      font-size: 1rem;
+    }
+    .container {
+      padding: 1.25rem 1rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .accent-band {
+      height: 6px;
+      background: #8b1d1d;
+      margin: 1.5rem 0;
+      border-radius: 4px;
+    }
+    .section {
+      background: #ffffff;
+      border: 2px solid #cfa44a;
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .section h2 {
+      margin-top: 0;
+      text-align: center;
+      color: #0f2f57;
+      letter-spacing: 1px;
+    }
+    .why p {
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .prizes ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .prizes li {
+      text-align: center;
+      padding: 0.75rem 0;
+      font-size: 1.05rem;
+      border-bottom: 1px solid #e6d9b5;
+    }
+    .prizes li:last-child {
+      border-bottom: none;
+    }
+    .badge {
+      background: #8b1d1d;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 0.75rem 1.5rem;
+      border-radius: 40px;
+      display: inline-block;
+      margin: 1.25rem auto 0;
+      font-size: 1.1rem;
+    }
+    .countdown {
+      margin-top: 1rem;
+      font-style: italic;
+      color: #555;
+      text-align: center;
+    }
+    .details ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .details li {
+      padding: 0.4rem 0;
+      font-size: 1rem;
+    }
+    footer {
+      background: #0f2f57;
+      color: #ffffff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.95rem;
+      border-top: 6px solid #cfa44a;
+    }
+    @media (min-width: 768px) {
+      header h1 { font-size: 2.6rem; }
+      .prizes li { font-size: 1.15rem; }
+      .why p { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fundraiser Raffle</h1>
+  <p>Presented by <strong>R&amp;S Social Club #2</strong></p>
+</header>
+
+<main class="container">
+
+  <section class="section why">
+    <h2>Why Support This Raffle</h2>
+    <p>
+      This fundraiser supports the noble labors of our Lodge, enabling us to extend relief within our community and to faithfully uphold our sacred obligation to the widows of our departed Brethren. Through your generosity, we strengthen the ties of Brotherhood, practice the virtues we profess, and ensure that those entrusted to our care continue to feel the steady hand and warm fellowship of the Craft throughout the year.
+    </p>
+  </section>
+
+  <div class="accent-band"></div>
+
+  <section class="section prizes">
+    <h2>Raffle Prizes</h2>
+    <ul>
+      <li><strong>1st Prize:</strong> Weekend Getaway at the Williamsburg Winery</li>
+      <li><strong>2nd Prize:</strong> 75&quot; Large Smart TV</li>
+      <li><strong>3rd Prize:</strong> Curated Wine Basket</li>
+    </ul>
+    <div class="badge">Tickets: $25 Each</div>
+  </section>
+
+  <section class="section details">
+    <div class="countdown">Countdown to Drawing: <strong>Coming Soon</strong></div>
+    <h2>Raffle Details</h2>
+    <ul>
+      <li><strong>Ticket Price:</strong> $25 each</li>
+      <li><strong>Drawing Date:</strong> TBD</li>
+      <li><strong>Status:</strong> Planning Phase</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>Points of Contact</strong></p>
+  <p>Richard Groover · 757-714-0397</p>
+  <p>Ty Dancy · 757-407-8625</p>
+  <p style="margin-top:1rem; font-size:0.85rem;">Raffle conducted in accordance with applicable local laws and regulations.</p>
+</footer>
+
+</body>
+</html>
